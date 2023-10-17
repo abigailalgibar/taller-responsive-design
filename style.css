@@ -1,0 +1,14 @@
+.navbar-nav {
+  margin-left: 0;
+}
+
+/* Agregar margen derecho solo en tamaños grandes (lg) y superiores cuando el navbar está expandido */
+@media (min-width: 992px) {
+  .navbar-expand-lg .nav-link {
+  margin-left: 4rem;
+  }
+}
+
+.col, .mb-4{
+  background-color: rgb(244, 244, 244);
+}
